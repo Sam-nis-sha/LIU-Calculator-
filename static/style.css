@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #007BFF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #1b1e20;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p, form {
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 16px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.result-box {
+    text-align: center;       /* Centre le texte */
+    margin: 20px auto;        /* Ajoute de l'espace autour */
+    padding: 15px;            /* Ajoute de l'espace à l'intérieur de l'encadré */
+    border: 2px solid #007BFF; /* Bordure bleue de 2px */
+    border-radius: 10px;      /* Arrondir légèrement les coins */
+    background-color: #f9f9ff; /* Couleur de fond claire */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour un effet élégant */
+    max-width: 400px;         /* Largeur maximale de l'encadré */
+    font-size: 1.5em;         /* Agrandir la taille du texte */
+    font-weight: bold;        /* Mettre le texte en gras */
+    color: #007BFF;           /* Couleur du texte */
+}
